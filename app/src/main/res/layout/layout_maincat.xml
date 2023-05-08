@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cat_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardQuiz"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/margin_5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/margin_5dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:elevation="8dp"
+        app:cardCornerRadius="@dimen/margin_20dp"
+        card_view:cardElevation="7dp"
+        card_view:cardPreventCornerOverlap="false">
+
+        <RelativeLayout
+            android:id="@+id/cardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true">
+
+
+                    <com.android.volley.toolbox.NetworkImageView
+                        android:id="@+id/cateImg"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_marginEnd="@dimen/margin_10dp"
+                        android:src="@drawable/ic_launcher" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/bcurvegradient_cat_blue">
+
+                        <TextView
+                            android:id="@+id/item_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_10dp"
+                            android:layout_marginTop="@dimen/margin_5dp"
+                            android:layout_marginEnd="@dimen/margin_5dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:maxLines="1"
+                            android:text="@string/title"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_12sp" />
+
+
+                        <TextView
+                            android:id="@+id/noofque"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/item_title"
+                            android:layout_marginStart="@dimen/margin_10dp"
+                            android:text="@string/name"
+                            android:textColor="#a7c5f4"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/noofcate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/item_title"
+                            android:layout_marginStart="@dimen/margin_10dp"
+                            android:layout_marginBottom="@dimen/margin_10dp"
+                            android:layout_toEndOf="@+id/noofque"
+                            android:text="@string/name"
+                            android:textColor="#a7c5f4"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relayPremium"
+            android:layout_width="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:padding="3dp"
+            android:layout_marginEnd="@dimen/margin_5dp"
+            android:background="@drawable/premimum_circle"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Premium"
+                android:textColor="@color/white"
+                android:textSize="6sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

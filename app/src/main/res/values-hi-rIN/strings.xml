@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">प्रश्नोत्तरी (v7.0.9)</string>
+    <string name="drawer_open">नेविगेशन दराज खोलें</string>
+    <string name="drawer_close">नेविगेशन दराज बंद करें</string>
+    <string name="completed">बधाई हो!!</string>
+    <string name="congratulations">बधाई हो!!</string>
+    <string name="time_challenge_msg">आपने . में चुनौती पूरी कर ली है&#160;</string>
+    <string name="sec">&#160;सेकंड&#160;</string>
+    <string name="not_completed">बेटर लक नेक्स्ट टीएमई</string>
+    <string name="select_level">स्तर चुनें</string>
+    <string name="select_category">श्रेणी का चयन करें</string>
+    <string name="learning_zone">Learning Zone</string>
+    <string name="account_delete">खाता हटाएं?</string>
+    <string name="delete_msg">क्या आप वाकई अपना खाता हटाना चाहते हैं?\nइस क्रिया को पूर्ववत नहीं किया जा सकता है। आपका खाता हटाए जाने के बाद, आप लॉग आउट हो जाएंगे और अन्य सभी सक्रिय सत्र समाप्त हो जाएंगे।</string>
+
+    <string name="select_sub_category">उपश्रेणी का चयन करें</string>
+    <string name="self_challenge">आत्म चुनौती</string>
+    <string name="daily_quiz">दैनिक प्रश्नोत्तरी</string>
+    <string name="random_quiz">यादृच्छिक प्रश्नोत्तरी</string>
+    <string name="contest">प्रतियोगिता</string>
+    <string name="sound">ध्वनि</string>
+    <string name="apply_code">रेफरल कोड लागू करें</string>
+    <string name="Username">उपयोगकर्ता नाम</string>
+    <string name="apply">लागू करना</string>
+    <string name="share_app">ऐप शेयर करें</string>
+    <string name="update_msg_1">बैटर अनुभव के लिए ऐप को अपडेट करें!</string>
+    <string name="not_now">अभी नहीं</string>
+    <string name="update_now">अद्यतन</string>
+    <string name="update_alert">अलर्ट अपडेट करें</string>
+    <string name="vibration">कंपन</string>
+    <string name="rateapp">हमें रेटिंग दें</string>
+    <string name="bg_music">पार्श्व संगीत</string>
+    <string name="share_via">के माध्यम से बाँटे</string>
+    <string name="next_play">अगला स्तर खेलें</string>
+    <string name="play_again">फिर से चालू करें</string>
+    <string name="quite">घर</string>
+    <string name="review_answer">समीक्षा</string>
+    <string name="share_score">शेयर स्कोर</string>
+    <string name="share_result">परिणाम साझा करें</string>
+    <string name="action_settings">समायोजन</string>
+    <string name="play_next">फिर से चालू करें</string>
+    <string name="lets_play">आइए खेलते हैं</string>
+    <string name="instruction">अनुदेश</string>
+    <string name="coinstore">सिक्के की दुकान</string>
+    <string name="msg_no_internet">कोई इंटरनेट कनेक्शन नहीं!!</string>
+    <string name="no_category">श्रेणी उपलब्ध नहीं है !!</string>
+    <string name="no_data">डेटा नहीं मिला!!</string>
+    <string name="ttl_ques">सवाल :&#160;</string>
+    <string name="select_no_of_question">प्रश्नों की संख्या चुनें</string>
+    <string name="select_time_period">मिनटों में समय अवधि चुनें</string>
+    <string name="no_sub_category">उप श्रेणी उपलब्ध नहीं है !!</string>
+    <string name="no_enough_question">स्तर खेलने के लिए पर्याप्त प्रश्न नहीं हैं।</string>
+    <string name="no_enough_questiondaily">दैनिक प्रश्नोत्तरी उपलब्ध नहीं है या आप पहले ही दैनिक प्रश्नोत्तरी खेल चुके हैं !!</string>
+    <string name="retry">पुन: प्रयास</string>
+    <string name="title">शीर्षक</string>
+    <string name="lets_start">चलो शुरू करते हैं</string>
+    <string name="hello">नमस्ते,&#160;</string>
+    <string name="_coins">&#160;सिक्के</string>
+    <string name="bm_empty_msg">बुकमार्क उपलब्ध नहीं है</string>
+    <string name="empty_alert_msg">मैदान खाली नहीं होना चाहिए</string>
+    <string name="a">ए</string>
+    <string name="b">बी</string>
+    <string name="c">सी</string>
+    <string name="d">डी</string>
+    <string name="e">इ</string>
+
+
+    <string name="un_attend">अन-का प्रयास किया</string>
+    <string name="answer">उत्तर</string>
+    <string name="answerbookmark">उत्तर :</string>
+    <string name="extra_note">अतिरिक्त नोट</string>
+    <string name="note">ध्यान दें</string>
+    <string name="ok">ठीक</string>
+    <string name="ad_attribution">विज्ञापन</string>
+    <string name="report">रिपोर्ट प्रश्न</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="submit">प्रस्तुत करना</string>
+    <string name="review">समीक्षा</string>
+    <string name="result">नतीजा</string>
+    <string name="title_already_used">जीवन रेखा पहले से ही प्रयुक्त !!</string>
+    <string name="msg_lifeline_used">आप प्रति स्तर केवल एक बार उपयोग कर सकते हैं</string>
+    <string name="self_challenge_sub_msg">क्या आप सुनिश्चित हैं ?\nआप यह परीक्षा सबमिट करना चाहते हैं?</string>
+    <string name="true_ans">सही साल:</string>
+    <string name="zero">0</string>
+    <string name="challenge_time">चुनौती का समय&#160;</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="bookmark_list">बुकमार्क सूची</string>
+    <string name="level_not_available">स्तर उपलब्ध नहीं है</string>
+    <string name="go_back">वापस जाओ</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="signup">खाता बनाएं</string>
+    <string name="signup_alert">आप अभी तक पंजीकृत नहीं हैं, कृपया साइनअप करें</string>
+    <string name="invalid_pass">पासवर्ड अमान्य है, कृपया अपना पासवर्ड जांचें</string>
+    <string name="email_alert_1">कृपया ईमेल पता दर्ज करें</string>
+    <string name="email_alert_2">कृपया सही ईमेल पता दें</string>
+    <string name="pass_alert">कृप्या पास्वर्ड भरो</string>
+    <string name="from_camera">कैमरे से कैद</string>
+    <string name="verify_email_sent">सत्यापन ईमेल भेजा गया&#160;</string>
+    <string name="verify_email_sent_f">सत्यापन ईमेल भेजने में विफल।</string>
+    <string name="ref_code">रेफरल कोड</string>
+    <string name="act_verify_1">आपके ईमेल खाते पर एक सत्यापित लिंक भेज दिया गया है</string>
+    <string name="act_verify_2">कृपया उस लिंक पर क्लिक करें जो अभी आपके ईमेल खाते में भेजा गया है ताकि आपका ईमेल सत्यापित किया जा सके और लॉगिन प्रक्रिया जारी रखी जा सके।</string>
+    <string name="account_deactivate">आपका खाता व्यवस्थापक द्वारा निष्क्रिय कर दिया गया है</string>
+    <string name="select_language">भाषा चुने</string>
+    <string name="refer_share_msg_1">मैंने का उपयोग करके सिक्के अर्जित किए हैं&#160;</string>
+    <string name="refer_share_msg_2">&#160;अनुप्रयोग। आप नीचे दिए गए लिंक से ऐप डाउनलोड करके भी सिक्का कमा सकते हैं और लॉगिन करते समय रेफरल कोड दर्ज कर सकते हैं-&#160;</string>
+    <string name="msg_enough_coin">पर्याप्त सिक्के नहीं है !!</string>
+    <string name="coin_message1">आपके पास पर्याप्त सिक्के नहीं हैं। आपको कम से कम चाहिए&#160;</string>
+    <string name="coin_message2">&#160;इस जीवन रेखा का उपयोग करने के लिए सिक्के। \n\nएक छोटा वीडियो देखें</string>
+    <string name="not_enough_coin">आपके पास पर्याप्त सिक्के नहीं हैं।</string>
+
+    <string name="skip">छोड़ें</string>
+    <string name="msg_watch_video">अब देखिए</string>
+    <string name="attended">उपस्थित प्रश्न</string>
+    <string name="correct_ans">सही साल</string>
+    <string name="correct">सही</string>
+    <string name="incorrect">ग़लत</string>
+    <string name="color_code">रंग कोड</string>
+    <string name="report_hint">एक संदेश लिखें</string>
+    <string name="mathscompleted">गणित क्षेत्र पूर्ण!!</string>
+    <string name="randomcompleted">रैंडम प्रश्नोत्तरी पूर्ण
+!!</string>
+    <string name="truefalsecompleted">सही/गलत प्रश्नोत्तरी पूरी हुई
+!!</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="exit_msg">क्या आप स्तर से बाहर निकलना चाहते हैं?</string>
+    <string name="exit_msg_quiz">क्या आप प्रश्नोत्तरी से बाहर निकलना चाहते हैं?</string>
+    <string name="bookmark_play">बुकमार्क खेलें</string>
+    <string name="all_complete_msg">आपने सभी प्रश्न पूरे कर लिए हैं !!</string>
+    <string name="leave_msg_1">क्या आपको यकीन है?</string>
+    <string name="leave_msg_2">आपने अभी तक यह परीक्षण सबमिट नहीं किया है। क्या आप वाकई छोड़ना चाहते हैं?</string>
+
+
+    <string name="battle_msg1">\u25CF यह खिलाड़ी बनाम खिलाड़ी लड़ाई की अनुमति देगा</string>
+    <string name="battle_msg2">\u25CF अगर लड़ाई के लिए कोई खिलाड़ी नहीं मिला, तो आप रोबोट से युद्ध कर सकते हैं</string>
+    <string name="battle_msg3">\u25CF लड़ाई के लिए, दोनों खिलाड़ियों के लिए समान प्रश्न पूछे जाएंगे</string>
+
+
+    <string name="has_option">प्रश्नोत्तरी खेल में 4 विकल्प हैं</string>
+    <string name="msg_right">प्रत्येक सही उत्तर के लिए 5 अंक दिए जाएंगे।</string>
+    <string name="msg_wrong">प्रत्येक प्रश्न के लिए माइनस 2 अंक</string>
+    <string name="msg_lifeline">लाइफलाइन का उपयोग: आप प्रति स्तर केवल एक बार उपयोग कर सकते हैं</string>
+    <string name="msg_fifty_fifty">50 – 50 : चार में से दो विकल्प हटाने के लिए (4 सिक्के घटाएं)।</string>
+    <string name="msg_skip">प्रश्न छोड़ें: आप बिना माइनस पॉइंट के प्रश्न पास कर सकते हैं (2 सिक्के घटाएं)।</string>
+    <string name="msg_opinion">ऑडियंस पोल: अन्य उपयोगकर्ताओं को विकल्प चुनने के लिए ऑडियंस पॉल का उपयोग करें (4 सिक्के घटाएं)।</string>
+    <string name="msg_reset">टाइमर रीसेट करें: यदि आपको अधिक समय स्कोर (2 सिक्के घटाएं) की आवश्यकता है तो टाइमर को फिर से रीसेट करें।</string>
+    <string name="msg_leaderboard">आप ऐप्स के अन्य उपयोगकर्ताओं के साथ अपने स्कोर की तुलना कर सकते हैं</string>
+    <string name="leaderboard">लीडरबोर्ड</string>
+
+    <string name="textsize_dialog_lbl_fontsize">फ़ॉन्ट आकार</string>
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="level_locked">स्तर बंद है</string>
+
+    <string name="update_profile">प्रोफ़ाइल को नवीनतम बनाओ</string>
+    <string name="user_statistics">उपयोगकर्ता सांख्यिकी</string>
+    <string name="name">नाम</string>
+    <string name="mobile">मोबाइल नंबर</string>
+    <string name="back">वापस</string>
+    <string name="play_quiz">प्रश्नोत्तरी क्षेत्र</string>
+    <string name="play">खेल</string>
+    <string name="battle_quiz">लड़ाई प्रश्नोत्तरी</string>
+    <string name="bookmarks">बुकमार्क</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="show_answer">उत्तर दिखाओ</string>
+    <string name="from_library">पुस्तकालय से चुनें</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="password_valid">पासवर्ड कम से कम 6 अक्षर का होना चाहिए</string>
+    <string name="refer">रेफरल कोड</string>
+    <string name="forgot_pass">पासवर्ड भूल गए?</string>
+    <string name="reset_pass">खाता बनाते समय आपके द्वारा उपयोग किया गया ईमेल पता दर्ज करें। उस पते पर एक संदेश भेजा जाएगा जिसमें आपका पासवर्ड रीसेट करने के लिए एक लिंक होगा।</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="rank">पद</string>
+    <string name="score">स्कोर</string>
+    <string name="coins">सिक्के</string>
+    <string name="statistics">आंकड़े</string>
+    <string name="term_privacy">By Logging / SigningUp in, you agree to our \nTerms of Service and Privacy Policy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms">Terms of Service</string>
+    <string name="modulo_sign">%</string>
+
+    <string name="player_1">खिलाड़ी १</string>
+    <string name="player_2">खिलाड़ी २</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="play_with_computer1">रोबोट के साथ खेलें</string>
+    <string name="congrats">बधाई</string>
+    <string name="next_time">बैटर लक अगली बार !!</string>
+    <string name="robot">रोबोट</string>
+    <string name="level">स्तर</string>
+    <string name="msg_player_not_available"><h3>  <b>Oops!</b></h3> \nखिलाड़ी युद्ध के लिए उपलब्ध नहीं है !!</string>
+    <string name="question_not_available">प्रश्न उपलब्ध नहीं है</string>
+    <string name="leave_battle_txt">&#160;खेल छोड़ दिया है।</string>
+    <string name="msg_win_battle">, आप लड़ाई जीतते हैं</string>
+    <string name="you_win">"आप जीत गए !! \n"</string>
+    <string name="msg_opponent_win_battle">&#160;लड़ाई जीतो</string>
+    <string name="msg_alert_leave">"क्या आप निश्चित हैं,\nआप युद्ध छोड़ना चाहते हैं?"</string>
+    <string name="msg_draw_game">"ड्रा…!!\nखेल खत्म हो गया है फिर से खेलें"</string>
+    <string name="try_again1">पुनः प्रयास करें</string>
+    <string name="winner">विजेता</string>
+    <string name="victory_">विजय</string>
+    <string name="device_language">डिवाइस की भाषा</string>
+    <string name="you_loss">आप नुकसान</string>
+    <string name="defeat">परास्त करना</string>
+    <string name="or">या</string>
+    <string name="category">श्रेणी&#160;</string>
+    <string name="que">उस:&#160;</string>
+    <string name="search_player">खिलाड़ी खोजें</string>
+    <string name="leave_battle">लड़ाई छोड़ो</string>
+    <string name="yes">हां</string>
+    <string name="no">नहीं</string>
+    <string name="back_message">क्या पक्का आप इसे छोड़ना चाहते हैं ?</string>
+    <string name="dailycompleted">दैनिक प्रश्नोत्तरी पूर्ण !!</string>
+
+    <string name="invite_frnd">मित्रों को आमंत्रित करें</string>
+    <string name="refer_code_copied">क्लिपबोर्ड पर कॉपी किया गया कोड देखें</string>
+    <string name="refer_message_1">एक मित्र को देखें, और आपको मिल जाएगा&#160;</string>
+    <string name="refer_message_2">&#160;हर बार जब आपके रेफरल कोड का उपयोग किया जाता है और आपके मित्र को सिक्के मिलते हैं&#160;</string>
+    <string name="refer_message_3">&#160;अपने रेफरल कोड का उपयोग करके सिक्के</string>
+    <string name="your_refer_code">आपका रेफरल कोड</string>
+    <string name="tap_copy">कॉपी करने के लिए टैप करें</string>
+    <string name="refer_now">अब साझा करें</string>
+    <string name="start_on">शुरू होता है:</string>
+    <string name="ends_on">पर समाप्त होता है:</string>
+    <string name="ending_on">पर समाप्त:</string>
+    <string name="not_enough_entry_coin">सिक्का कमाएं और प्रतियोगिता में शामिल हों</string>
+
+    <string name="today">आज</string>
+    <string name="month">महीना</string>
+    <string name="all">सभी</string>
+    <string name="top_user">शीर्ष उपयोगकर्ता:&#160;</string>
+    <string name="price">कीमत :&#160;</string>
+    <string name="past">भूतकाल</string>
+    <string name="live">रहना</string>
+    <string name="upcoming">आगामी</string>
+
+    <string name="victory">जीत</string>
+    <string name="re_battle">आरई-लड़ाई</string>
+    <string name="logout_msg">क्या आप निश्चित हैं!!\nआप लॉग आउट करना चाहते हैं?</string>
+    <string name="true_false">सही गलत</string>
+    <string name="contest_complete">प्रतियोगिता पूर्ण</string>
+    <string name="refer_code_generate_error_msg">आपका संदर्भ कोड उत्पन्न नहीं हुआ है कृपया अपने संदर्भ कोड के लिए पुनः लॉगिन करें।</string>
+    <string name="category_select">कृपया श्रेणी चुनें</string>
+    <string name="subcategory_select">कृपया उपश्रेणी चुनें</string>
+    <string name="question_select">कृपया प्रश्नों का चयन करें</string>
+    <string name="minutes_select">कृपया मिनटों का चयन करें</string>
+    <string name="rewards_message">रिवॉर्ड विज्ञापन लोड नहीं हुए कुछ समय बाद कोशिश करें !!</string>
+    <string name="rewads_adstitle">विज्ञापन लोड नहीं हुए !!</string>
+
+    <string name="otp_msg">आपके मोबाइल फोन पर आपको ओटीपी भेज दिया गया है। कृपया इसे नीचे दर्ज करें</string>
+    <string name="enter_otp">ओटीपी दर्ज करें</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="phone_num">फ़ोन नंबर</string>
+    <string name="sign_up_with_mobile">मोबाइल के साथ साइन अप करें</string>
+    <string name="entry_fees">प्रवेश शुल्क</string>
+    <string name="participants">खिलाड़ियों</string>
+    <string name="enter_email">ईमेल पता दर्ज करें</string>
+    <string name="act_login">खाते में प्रवेश</string>
+    <string name="no_notification">सूचना उपलब्ध नहीं है !!</string>
+    <string name="new_act">नया खाता</string>
+    <string name="reset_msg1">ईमेल पता दर्ज करें \nआपके \nखाते से संबद्ध।</string>
+    <string name="reset_msg2">हम आपको आपका \nपासवर्ड रीसेट करने के लिए एक लिंक ईमेल करेंगे</string>
+    <string name="by_wrteam">द्वारा WRTeam</string>
+
+    <string name="refer_amp_earn"><![CDATA[रेफ़र & अर्न]]></string>
+
+    <string name="wonagaines">मैं फिर से जीत गया !!
+</string>
+    <string name="lostagainest">मैं फिर से हार गया !!
+</string>
+
+
+    <string name="your_game_code">आपका गेम कोड</string>
+    <string name="user_join_alert">उफ़ !! कोई उपयोगकर्ता शामिल नहीं है</string>
+    <string name="user_join_alert_msg">ऐसा लगता है कि अभी तक कोई उपयोगकर्ता गेम में शामिल नहीं हुआ है।</string>
+    <string name="join_room">कमरे को जोड़ दो</string>
+    <string name="enter_game_code">गेम कोड दर्ज करें</string>
+    <string name="game_code">गेमकोड</string>
+    <string name="stay_back">रुको</string>
+    <string name="leave">छोड़ना</string>
+    <string name="multiplayer_game">समूह लड़ाई</string>
+    <string name="wait_for_players">खिलाड़ियों के लिए प्रतीक्षा करें</string>
+    <string name="minmum_user_join_alert">खेल में शामिल होने के लिए कम से कम एक उपयोगकर्ता की प्रतीक्षा करें</string>
+    <string name="battle_result">युद्ध परिणाम</string>
+    <string name="room_deactivate_alert">गेमरूम निष्क्रिय</string>
+    <string name="all_user_left_game">सभी उपयोगकर्ता खेल छोड़ो</string>
+    <string name="destroy_game_room_msg">गेम रूम निष्क्रिय</string>
+    <string name="room_created_msg">गेमरूम सफलतापूर्वक बनाया गया</string>
+    <string name="leave_game_room_msg">क्या आप निश्चित हैं, आप खेल छोड़ना चाहते हैं?</string>
+    <string name="join">कमरे को जोड़ दो</string>
+    <string name="create">जगह बनाना</string>
+    <string name="enter_code">गेमरूम कोड दर्ज करें</string>
+    <string name="view_all"><u> सभी को देखें</u>  </string>
+    <string name="quiz_zone">प्रश्नोत्तरी क्षेत्र</string>
+    <string name="play_zone">खेलने का क्षेत्र</string>
+    <string name="battle_zone">युद्ध क्षेत्र</string>
+    <string name="group_battle">समूह लड़ाई</string>
+    <string name="play_now">अब खेलते हैं</string>
+    <string name="random_battle">यादृच्छिक लड़ाई</string>
+    <string name="contest_zone">प्रतियोगिता क्षेत्र</string>
+    <string name="contest_play">प्रतियोगिता खेल</string>
+    <string name="join_now">अब शामिल हों</string>
+    <string name="game_deactive_alert">गेमरूम निष्क्रिय है या गेम पहले ही शुरू हो चुका है</string>
+    <string name="gameroom_full">अधिकतम उपयोगकर्ता शामिल होने की सीमा तक पहुंच गया !!</string>
+    <string name="share_code_msg">यहाँ मेरा समूह युद्ध खेल कोड है: &#160;</string>
+    <string name="waiting_msg">कृपया कुछ समय प्रतीक्षा करें जब तक कि अन्य खिलाड़ी खेल पूरा न कर ले।</string>
+    <string name="game_code_alert">गेमकोड अमान्य है</string>
+    <string name="practice">अभ्यास</string>
+    <string name="gameroom_code_alert">गेमकोड अमान्य है कृपया कोड जांचें</string>
+    <string name="share_code">इस रूम कोड को दोस्तों के साथ शेयर करें और उन्हें इसमें शामिल होने के लिए कहें</string>
+    <string name="msg_oto_game_code">Here is My Group Battle Game Code : &#160;</string>
+
+    <string name="levea_msg3">क्या आप वाकई प्रैक्टिस क्विज़ छोड़ना चाहते हैं?</string>
+    <string name="youloss">आप नुकसान</string>
+    <string name="you">आप</string>
+    <string name="enternumber">अपना मोबाइल संख्या दर्ज करे</string>
+    <string name="entername">कृपया नाम दर्ज करें</string>
+    <string name="enterpassword">कृपया पासवर्ड दर्ज करें।</string>
+    <string name="text_store">कॉइन स्टोर में आपका स्वागत है\nजिस आसान तरीके से आप कॉइन खरीद सकते हैं !!</string>
+    <string name="profile_permission"><![CDATA[प्रोफ़ाइल चित्र बदलें आपको अनुमति देने की आवश्यकता है। आप Android सेटिंग -&gt; ऐप से अनुमति दे सकते हैं।]]></string>
+    <string name="permission_grant">अनुमति अनुदान</string>
+
+    <string name="oppentent_leave">आपका प्रतिद्वंद्वी GameRoom छोड़ दें!!</string>
+    <string name="one_to_one_battle">एक-से-एक लड़ाई</string>
+    <string name="one_to_one_msg">अपने मित्र को आमंत्रित करें और उनके साथ आमने-सामने की लड़ाई खेलें. </string>
+    <string name="learningcompleted" >लर्निंग जोन पूरा हुआ !!</string>
+    <string name="learning_play">लर्निंग प्ले
+</string>
+    <string name="secbattle">सेकंड</string>
+    <string name="application_language">आवेदन भाषा</string>
+    <string name="try_after_sometime">कुछ देर बाद ट्राई करें</string>
+    <string name="please_follow_">कृपया सोशल मीडिया पर फॉलो करें !! अमेरिका से जुड़ने के लिए!</string>
+    <string name="Waiting_for_opponent">Waiting For Opponent</string>
+    <string name="start_game">Start Game</string>
+    <string name="room_create_msg">GameRoom Create Successfully</string>
+    <string name="share_code_oto">अपने दोस्त के साथ गेम कोड शेयर करें और वन-टू-वन बैटल खेलें.</string>
+    <string name="game_start_msg">कृपया प्रतीक्षा करें खेल कुछ ही सेकंड में शुरू हो जाएगा.</string>
+    <string name="facebook_app_id">2338640796222596</string>
+    <string name="fb_login_protocol_scheme">fb2338640796222596</string>
+
+    <string name="adAppId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_Rewarded_Video_Ads">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="native_unit_id">ca-app-pub-3940256099942544/8135179316</string>
+    <string name="admob_openads_id">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="delete_successfully">उपयोगकर्ता को सफलतापूर्वक हटाया गया</string>
+    <string name="re_login">फिर से लॉगिन करें !!</string>
+    <string name="relogin_message">अपना खाता हटाने के लिए, आपको हाल ही में लॉगिन करना होगा।\n उसके बाद आप अपना खाता हटा सकते हैं</string>
+    <string name="index">अनुक्रमणिका</string>
+    <string name="levelfinish">मैंने लेवल नंबर पूरा कर लिया है: </string>
+    <string name="with"> साथ </string>
+    <string name="scorein"> स्कोर इन
+ </string>
+    <string name="finishquiz">मैंने प्रश्नोत्तरी समाप्त कर ली है</string>
+    <string name="quepreparing">प्रश्न तैयारी...</string>
+    <string name="acceptprivacy">कृपया हमारी गोपनीयता नीति स्वीकार करें !!
+</string>
+    <string name="finish">मैंने समाप्त कर दिया है
+</string>
+    <string name="minute">मिनट सेल्फ चैलेंज इन
+</string>
+    <string name="minutein">मिनट में
+</string>
+
+</resources>

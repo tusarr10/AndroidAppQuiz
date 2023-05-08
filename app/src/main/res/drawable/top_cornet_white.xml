@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+             />
+
+            <solid android:color="#00bbbdcb" />
+            <corners
+                android:bottomRightRadius="@dimen/margin_dp"
+                android:bottomLeftRadius="@dimen/margin_dp" />
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+            />
+
+            <solid android:color="#05bbbdcb" />
+
+            <corners
+                android:bottomRightRadius="@dimen/margin_dp"
+                android:bottomLeftRadius="@dimen/margin_dp" />
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+              />
+
+            <solid android:color="#0abbbdcb" />
+
+            <corners
+                android:bottomRightRadius="@dimen/margin_dp"
+                android:bottomLeftRadius="@dimen/margin_dp" />
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+             />
+
+            <solid android:color="#0fbbbdcb" />
+
+            <corners
+                android:bottomRightRadius="@dimen/margin_dp"
+                android:bottomLeftRadius="@dimen/margin_dp" />
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="1dp"
+              />
+
+            <solid android:color="#14bbbdcb" />
+
+            <corners
+                android:bottomRightRadius="@dimen/margin_dp"
+                android:bottomLeftRadius="@dimen/margin_dp" />
+
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+
+
+            <corners
+                android:bottomRightRadius="@dimen/margin_dp"
+                android:bottomLeftRadius="@dimen/margin_dp" />
+        </shape>
+    </item>
+
+</layer-list>

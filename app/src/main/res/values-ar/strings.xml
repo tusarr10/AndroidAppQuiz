@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اختبار (v7.0.9)</string>
+    <string name="drawer_open">افتح درج التنقل</string>
+    <string name="drawer_close">أغلق درج التنقل</string>
+    <string name="completed">تهانينا!!</string>
+    <string name="congratulations">تهانينا!!</string>
+    <string name="time_challenge_msg">لقد أكملت التحدي في</string>
+    <string name="sec">ثانية</string>
+    <string name="not_completed">حظ أفضل التالي Tme</string>
+    <string name="select_level">اختار مستوى</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="learning_zone">Learning Zone</string>
+    <string name="account_delete">حذف الحساب?</string>
+    <string name="delete_msg">هل أنت متأكد أنك تريد حذف حسابك؟ \ n لا يمكن التراجع عن هذا الإجراء. بعد حذف حسابك ، سيتم تسجيل خروجك وسيتم إنهاء جميع الجلسات النشطة الأخرى.</string>
+
+    <string name="select_sub_category">حدد الفئة الفرعية</string>
+    <string name="self_challenge">التحدي الذاتي</string>
+    <string name="daily_quiz">مسابقة يومية</string>
+    <string name="random_quiz">مسابقة عشوائية</string>
+    <string name="contest">منافسة</string>
+    <string name="sound">يبدو</string>
+    <string name="apply_code">تطبيق كود الإحالة</string>
+    <string name="Username">اسم المستخدم</string>
+    <string name="apply">تطبيق</string>
+    <string name="share_app">شارك التطبيق</string>
+    <string name="update_msg_1">قم بتحديث التطبيق للحصول على تجربة رائعة!</string>
+    <string name="not_now">ليس الان</string>
+    <string name="update_now">تحديث</string>
+    <string name="update_alert">تنبيه التحديث</string>
+    <string name="vibration">اهتزاز</string>
+    <string name="rateapp">قيمنا</string>
+    <string name="bg_music">خلفيه موسيقية</string>
+    <string name="share_via">شارك عبر</string>
+    <string name="next_play">لعب المستوى التالي</string>
+    <string name="play_again">العب مرة أخرى</string>
+    <string name="quite">الصفحة الرئيسية</string>
+    <string name="review_answer">إعادة النظر</string>
+    <string name="share_score">نقاط المشاركة</string>
+    <string name="share_result">نتيجة المشاركة</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="device_language">لغة التطبيق</string>
+    <string name="play_next">العب مرة أخرى</string>
+    <string name="lets_play">هيا بنا لنلعب</string>
+    <string name="instruction">تعليمات</string>
+    <string name="coinstore">متجر العملات</string>
+    <string name="msg_no_internet">لا يوجد اتصال بالإنترنت !!</string>
+    <string name="no_category">الفئة غير متوفرة !!</string>
+    <string name="no_data">لم يتم العثور على بيانات!!</string>
+    <string name="ttl_ques">السؤال:</string>
+    <string name="select_no_of_question">حدد عدد الأسئلة</string>
+    <string name="select_time_period">حدد الفترة الزمنية بالدقائق</string>
+    <string name="no_sub_category">الفئة الفرعية غير متوفرة !!</string>
+    <string name="no_enough_question">لا توجد أسئلة كافية للعب المستوى.</string>
+    <string name="no_enough_questiondaily">الاختبار اليومي غير متوفر أو أنك لعبت الاختبار اليومي بالفعل !!</string>
+    <string name="retry">أعد المحاولة</string>
+    <string name="title">عنوان</string>
+    <string name="lets_start">لنبدأ</string>
+    <string name="hello">أهلا،</string>
+    <string name="_coins">عملات معدنية</string>
+    <string name="bm_empty_msg">المرجعية غير متوفرة</string>
+    <string name="empty_alert_msg">يجب ألا يكون الحقل فارغًا</string>
+    <string name="a">أ</string>
+    <string name="b">ب</string>
+    <string name="c">ج</string>
+    <string name="d">د</string>
+    <string name="e">ه</string>
+    <string name="un_attend">لم يحاول</string>
+    <string name="answer">إجابه</string>
+    <string name="answerbookmark">إجابة :</string>
+    <string name="extra_note">ملاحظة اضافية</string>
+    <string name="note">ملحوظة</string>
+    <string name="ok">حسنا</string>
+    <string name="ad_attribution">ميلادي</string>
+    <string name="report">أبلغ عن السؤال</string>
+    <string name="cancel">يلغي</string>
+    <string name="submit">يقدم</string>
+    <string name="review">إعادة النظر</string>
+    <string name="result">نتيجة</string>
+    <string name="title_already_used">خط الحياة مستخدم بالفعل !!</string>
+    <string name="msg_lifeline_used">يمكنك استخدام مرة واحدة فقط لكل مستوى</string>
+    <string name="self_challenge_sub_msg">هل أنت متأكد؟ \nتريد إرسال هذا الاختبار؟</string>
+    <string name="true_ans">سنوات حقيقية:</string>
+    <string name="zero">0</string>
+    <string name="challenge_time">وقت التحدي</string>
+    <string name="loading">تحميل…</string>
+    <string name="bookmark_list">قائمة المرجعية</string>
+    <string name="level_not_available">المستوى غير متوفر</string>
+    <string name="go_back">عد</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">إنشاء حساب</string>
+    <string name="signup_alert">أنت غير مسجل بعد ، من فضلك قم بالتسجيل</string>
+    <string name="invalid_pass">كلمة المرور غير صالحة ، يرجى التحقق من كلمة المرور الخاصة بك</string>
+    <string name="email_alert_1">الرجاء إدخال عنوان البريد الإلكتروني</string>
+    <string name="email_alert_2">الرجاء إدخال عنوان بريد إلكتروني صالح</string>
+    <string name="pass_alert">الرجاء إدخال كلمة المرور</string>
+    <string name="from_camera">التقاط من الكاميرا</string>
+    <string name="verify_email_sent">تم إرسال رسالة التحقق إلى</string>
+    <string name="verify_email_sent_f">فشل في إرسال رسالة التحقق.</string>
+    <string name="ref_code">كود الإحالة</string>
+    <string name="act_verify_1">تم إرسال ارتباط تم التحقق منه إلى حساب البريد الإلكتروني الخاص بك</string>
+    <string name="act_verify_2">الرجاء النقر فوق الارتباط الذي تم إرساله للتو إلى حساب البريد الإلكتروني الخاص بك للتحقق من بريدك الإلكتروني ومتابعة عملية تسجيل الدخول.</string>
+    <string name="account_deactivate">تم إلغاء تنشيط حسابك من قبل المسؤول</string>
+    <string name="select_language">اختار اللغة</string>
+    <string name="refer_share_msg_1">لقد ربحت عملات معدنية باستخدام</string>
+    <string name="refer_share_msg_2">تطبيق. يمكنك أيضًا كسب عملات معدنية عن طريق تنزيل التطبيق من الرابط أدناه وإدخال رمز الإحالة أثناء تسجيل الدخول-</string>
+    <string name="msg_enough_coin">عملات غير كافية !!</string>
+    <string name="coin_message1">ليس لديك عملات كافية. تحتاج على الأقل</string>
+    <string name="coin_message2">العملات المعدنية لاستخدام شريان الحياة هذا. \n\nشاهد فيديو قصير</string>
+    <string name="not_enough_coin">ليس لديك عملات كافية.</string>
+
+
+    <string name="mathscompleted">اكتملت منطقة الرياضيات
+!!</string>
+    <string name="randomcompleted">اكتمل الاختبار العشوائي
+!!</string>
+    <string name="truefalsecompleted">اكتمل اختبار صح / خطأ
+!!</string>
+
+    <string name="skip">يتخطى</string>
+    <string name="msg_watch_video">شاهد الآن</string>
+    <string name="attended">حضر الأسئلة</string>
+    <string name="correct_ans">السنوات الصحيحة</string>
+    <string name="correct">صيح</string>
+    <string name="incorrect">غير صحيح</string>
+    <string name="color_code">رمز اللون</string>
+    <string name="report_hint">اكتب رسالة</string>
+
+    <string name="about_us">معلومات عنا</string>
+    <string name="exit_msg">هل تريد الخروج من المستوى؟</string>
+    <string name="exit_msg_quiz">هل تريد الخروج من الاختبار؟</string>
+    <string name="bookmark_play">تشغيل الإشارات المرجعية</string>
+    <string name="all_complete_msg">لقد أكملت جميع الأسئلة !!</string>
+    <string name="leave_msg_1">هل أنت متأكد؟</string>
+    <string name="leave_msg_2">لم تقم بإرسال هذا الاختبار حتى الآن. هل أنت متأكد أنك تريد المغادرة؟</string>
+
+
+    <string name="battle_msg1">\u25CF سيسمح هذا بمعركة لاعب مقابل لاعب</string>
+    <string name="battle_msg2">\u25CF إذا لم يتم العثور على أي لاعب في معركة ، يمكنك القتال مع الروبوت</string>
+    <string name="battle_msg3">\u25CF للمعركة ، سيتم تقديم نفس الأسئلة لكل من اللاعب</string>
+
+
+    <string name="has_option">لعبة المسابقة لديها 4 خيارات</string>
+    <string name="msg_right">سيتم إعطاء 5 نقاط لكل إجابة صحيحة.</string>
+    <string name="msg_wrong">ناقص نقطتين لكل سؤال</string>
+    <string name="msg_lifeline">استخدام Lifeline: يمكنك استخدامه مرة واحدة فقط لكل مستوى</string>
+    <string name="msg_fifty_fifty">50-50: لإزالة خيارين من أصل أربعة (خصم 4 عملات معدنية).</string>
+    <string name="msg_skip">تخطي السؤال: يمكنك اجتياز السؤال بدون ناقص النقاط (خصم 2 عملات).</string>
+    <string name="msg_opinion">استطلاع الجمهور: استخدم بول الجمهور للتحقق من اختيار المستخدمين الآخرين (خصم 4 عملات معدنية).</string>
+    <string name="msg_reset">إعادة تعيين المؤقت: أعد ضبط المؤقت مرة أخرى إذا كنت بحاجة إلى المزيد من نقاط الوقت (خصم 2 عملات معدنية).</string>
+    <string name="msg_leaderboard">يمكنك مقارنة درجاتك مع مستخدمي التطبيقات الآخرين</string>
+    <string name="leaderboard">ليدربورد</string>
+
+    <string name="textsize_dialog_lbl_fontsize">حجم الخط</string>
+    <string name="font_size">حجم الخط</string>
+    <string name="level_locked">المستوى مغلق</string>
+
+    <string name="update_profile">تحديث الملف</string>
+    <string name="user_statistics">إحصائيات المستخدم</string>
+    <string name="name">اسم</string>
+    <string name="mobile">رقم الهاتف المحمول</string>
+    <string name="back">الى الخلف</string>
+    <string name="play_quiz">منطقة الاختبار</string>
+    <string name="play">يلعب</string>
+    <string name="battle_quiz">مسابقة معركة</string>
+    <string name="bookmarks">إشارات مرجعية</string>
+    <string name="notification">تنبيه</string>
+    <string name="show_answer">اظهر الاجابة</string>
+    <string name="from_library">اختر من المكتبة</string>
+    <string name="email">بريد الالكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="password_valid">يجب أن تتكون كلمة المرور من 6 أحرف على الأقل</string>
+    <string name="refer">كود الإحالة</string>
+    <string name="forgot_pass">هل نسيت كلمة السر؟</string>
+    <string name="reset_pass">أدخل عنوان البريد الإلكتروني الذي استخدمته عند إنشاء الحساب. سيتم إرسال رسالة إلى هذا العنوان تحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك.</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="rank">مرتبة</string>
+    <string name="score">نتيجة</string>
+    <string name="coins">عملات معدنية</string>
+    <string name="statistics">إحصائيات</string>
+    <string name="term_privacy" >By Logging / SigningUp in, you agree to our \nTerms of Service and Privacy Policy</string>
+    <string name="privacy_policy" >Privacy Policy</string>
+    <string name="terms" >Terms of Service</string>
+    <string name="modulo_sign">٪</string>
+
+    <string name="player_1">اللاعب 1</string>
+    <string name="player_2">اللاعب 2</string>
+    <string name="exit">خروج</string>
+    <string name="play_with_computer1">العب مع الروبوت</string>
+    <string name="congrats">تهنئة</string>
+    <string name="next_time">أفضل حظ في المرة القادمة !!</string>
+    <string name="robot">إنسان آلي</string>
+    <string name="level">مستوى</string>
+    <string name="msg_player_not_available"><h3>  <b>Oops!</b></h3> \nاللاعب غير متوفر للمعركة !!</string>
+    <string name="question_not_available">السؤال غير متوفر</string>
+    <string name="leave_battle_txt">ترك اللعبة.</string>
+    <string name="msg_win_battle">، تكسب المعركة</string>
+    <string name="you_win">"لقد ربحت !! \n"</string>
+    <string name="msg_opponent_win_battle">اربح المعركة</string>
+    <string name="msg_alert_leave">"هل أنت متأكد ، \nتريد مغادرة المعركة؟"</string>
+    <string name="msg_draw_game">"ارسم .. !! \nانتهت اللعبة ، العب مرة أخرى"</string>
+    <string name="try_again1">حاول مجددا</string>
+    <string name="winner">الفائز</string>
+    <string name="victory_">فوز</string>
+    <string name="you_loss">انت خسرت</string>
+    <string name="defeat">هزيمة</string>
+    <string name="or">أو</string>
+    <string name="category">فئة</string>
+    <string name="que">الذي - التي:</string>
+    <string name="search_player">مشغل البحث</string>
+    <string name="leave_battle">اترك المعركة</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="back_message">هل انت متاكد انك تريد ان تغادر ؟</string>
+    <string name="dailycompleted">تم الانتهاء من الاختبار اليومي !!</string>
+
+    <string name="invite_frnd">ادعو أصدقاء</string>
+    <string name="refer_code_copied">قم بإحالة الرمز الذي تم نسخه إلى الحافظة</string>
+    <string name="refer_message_1">قم بإحالة صديق ، وسوف تحصل</string>
+    <string name="refer_message_2">العملات المعدنية في كل مرة يتم فيها استخدام رمز الإحالة الخاص بك وسيحصل صديقك على ذلك</string>
+    <string name="refer_message_3">العملات المعدنية باستخدام رمز الإحالة الخاص بك</string>
+    <string name="your_refer_code">رمز الإحالة الخاص بك</string>
+    <string name="tap_copy">اضغط للنسخ</string>
+    <string name="refer_now">شارك الآن</string>
+    <string name="start_on">يبدأ في:</string>
+    <string name="ends_on">ينتهي في:</string>
+    <string name="ending_on">تنتهي في:</string>
+    <string name="not_enough_entry_coin">اربح عملة وانضم إلى المسابقة</string>
+
+    <string name="today">اليوم</string>
+    <string name="month">شهر</string>
+    <string name="all">الجميع</string>
+    <string name="top_user">أعلى مستخدم:</string>
+    <string name="price">سعر :</string>
+    <string name="past">ماضي</string>
+    <string name="live">يعيش</string>
+    <string name="upcoming">القادمة</string>
+
+    <string name="victory">فوز</string>
+    <string name="re_battle">إعادة المعركة</string>
+    <string name="logout_msg">هل أنت متأكد !! \nتريد تسجيل الخروج؟</string>
+    <string name="true_false">خطأ صحيح</string>
+    <string name="contest_complete">اكتملت المسابقة</string>
+    <string name="refer_code_generate_error_msg">لم يتم إنشاء رمز الإحالة الخاص بك ، يرجى إعادة تسجيل الدخول للحصول على رمز الإحالة الخاص بك.</string>
+    <string name="category_select">الرجاء تحديد الفئة</string>
+    <string name="subcategory_select">الرجاء تحديد فئة فرعية</string>
+    <string name="question_select">الرجاء تحديد الأسئلة</string>
+    <string name="minutes_select">الرجاء تحديد الدقائق</string>
+    <string name="rewards_message">إعلانات المكافآت لم يتم تحميلها حاول بعد قليل !!</string>
+    <string name="rewads_adstitle">الاعلانات غير محملة !!</string>
+
+    <string name="otp_msg">تم إرسال OTP إليك على هاتفك المحمول. الرجاء إدخاله أدناه</string>
+    <string name="enter_otp">أدخل OTP</string>
+    <string name="verify">التحقق</string>
+    <string name="phone_num">رقم الهاتف</string>
+    <string name="sign_up_with_mobile">قم بالتسجيل باستخدام الهاتف المحمول</string>
+    <string name="entry_fees">رسوم الدخول</string>
+    <string name="participants">لاعبين</string>
+    <string name="enter_email">أدخل عنوان البريد الالكتروني</string>
+    <string name="act_login">تسجل الدخول</string>
+    <string name="no_notification">الإخطار غير متوفر !!</string>
+    <string name="new_act">حساب جديد</string>
+    <string name="reset_msg1">أدخل عنوان البريد الإلكتروني \nالمرتبط بحسابك \n.</string>
+    <string name="reset_msg2">سنرسل لك ارتباطًا عبر البريد الإلكتروني لإعادة تعيين \nكلمة المرور الخاصة بك</string>
+    <string name="by_wrteam">بواسطة WRTeam</string>
+
+    <string name="facebook_app_id">2338640796222596</string>
+    <string name="fb_login_protocol_scheme">fb2338640796222596</string>
+
+
+    <string name="refer_amp_earn">إحالة كسب</string>
+
+    <string name="wonagaines">فزت مرة أخرى !!
+</string>
+    <string name="lostagainest">لقد خسرت مرة أخرى !!
+</string>
+
+
+
+
+    <string name="your_game_code">رمز اللعبة الخاص بك</string>
+    <string name="user_join_alert">Oopps !! لا يوجد مستخدم انضمام</string>
+    <string name="user_join_alert_msg">يبدو أنه لا يوجد مستخدم ينضم إلى اللعبة حتى الآن.</string>
+    <string name="join_room">انضم الى الغرفة</string>
+    <string name="enter_game_code">أدخل رمز اللعبة</string>
+    <string name="game_code">كود اللعبة</string>
+    <string name="stay_back">لا تقترب</string>
+    <string name="leave">يترك</string>
+    <string name="multiplayer_game">معركة المجموعة</string>
+    <string name="wait_for_players">انتظر اللاعبين</string>
+    <string name="minmum_user_join_alert">انتظر حتى ينضم مستخدم واحد على الأقل إلى اللعبة</string>
+    <string name="battle_result">نتيجة المعركة</string>
+    <string name="room_deactivate_alert">GameRoom معطل</string>
+    <string name="all_user_left_game">كل مستخدم إنهاء اللعبة</string>
+    <string name="destroy_game_room_msg">غرفة اللعبة معطلة</string>
+    <string name="room_created_msg">تم إنشاء GameRoom بنجاح</string>
+    <string name="leave_game_room_msg">هل أنت متأكد أنك تريد ترك اللعبة؟</string>
+    <string name="join">انضم الى الغرفة</string>
+    <string name="create">إنشاء غرفة</string>
+    <string name="enter_code">أدخل كود GameRoom</string>
+    <string name="view_all"><u> مشاهدة الكل</u>  </string>
+    <string name="quiz_zone">منطقة الاختبار</string>
+    <string name="play_zone">منطقة اللعب</string>
+    <string name="battle_zone">منطقة المعركة</string>
+    <string name="group_battle">معركة المجموعة</string>
+    <string name="play_now">العب الان</string>
+    <string name="random_battle">معركة عشوائية</string>
+    <string name="contest_zone">منطقة المسابقة</string>
+    <string name="contest_play">اللعب في المسابقة</string>
+    <string name="join_now">نضم الان</string>
+    <string name="game_deactive_alert">GameRoom معطل أو بدأت اللعبة بالفعل</string>
+    <string name="gameroom_full">تم بلوغ الحد الأقصى من انضمام المستخدم !!</string>
+    <string name="share_code_msg">هذا هو رمز لعبة My Group Battle:</string>
+    <string name="msg_oto_game_code">هذا هو رمز لعبة My Group Battle:</string>
+    <string name="waiting_msg">يرجى الانتظار بعض الوقت حتى يكمل اللاعب الآخر اللعبة.</string>
+    <string name="game_code_alert">GameCode غير صالح</string>
+    <string name="practice">ممارسة</string>
+    <string name="gameroom_code_alert">GameCode غير صالح الرجاء التحقق من الرمز</string>
+    <string name="share_code">شارك رمز الغرفة هذا مع الأصدقاء واطلب منهم الانضمام</string>
+
+
+    <string name="one_to_one_battle">معركة فردية</string>
+    <string name="one_to_one_msg">قم بدعوة صديقك ولعب معركة فردية معه.</string>
+    <string name="Waiting_for_opponent">في انتظار الخصم</string>
+    <string name="start_game">بدء اللعبة</string>
+    <string name="room_create_msg">تم إنشاء GameRoom بنجاح</string>
+
+    <string name="share_code_oto" >شارك رمز اللعبة مع صديقك والعب معركة فردية</string>
+    <string name="game_start_msg" >الرجاء الانتظار ستبدأ اللعبة في ثوان قليلة.</string>
+    <string name="oppentent_leave">خصمك يترك GameRoom!!</string>
+    <string name="please_follow_">يرجى متابعة وسائل التواصل الاجتماعي !! لتوصيلنا!
+</string>
+    <string name="secbattle">ثانية</string>
+    <string name="application_language">لغة التطبيق
+</string>
+    <string name="try_after_sometime">حاول بعد وقت ما
+</string>
+    <string name="adAppId">ca-app-pub-3940256099942544 ~ 3347511713</string>
+    <string name="admob_Rewarded_Video_Ads">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="native_unit_id">ca-app-pub-3940256099942544/8135179316</string>
+    <string name="admob_openads_id">ca-app-pub-3940256099942544/3419835294</string>
+
+    <string name="learningcompleted" >اكتملت منطقة التعلم !!</string>
+    <string name="learning_play">تعلم اللعب
+</string>
+    <string name="levea_msg3">هل أنت متأكد أنك تريد مغادرة PracticeQuiz؟</string>
+    <string name="youloss">انت خسرت</string>
+    <string name="you">أنت</string>
+    <string name="enternumber">أدخل رقم هاتفك المحمول</string>
+    <string name="entername">الرجاء إدخال الاسم</string>
+    <string name="enterpassword">الرجاء إدخال كلمة المرور.</string>
+    <string name="text_store">مرحبًا بكم في Coin Store \nالطريقة السهلة لشراء Coin !!</string>
+    <string name="profile_permission">تغيير صورة الملف الشخصي تحتاج إلى منح الإذن. يمكنك منح الإذن من إعداد Android</string>
+    <string name="permission_grant">منح الإذن</string>
+    <string name="delete_successfully">تم حذف المستخدم بنجاح</string>
+    <string name="re_login">إعادة تسجيل الدخول مرة أخرى !!</string>
+    <string name="relogin_message">لحذف حسابك ، يجب أن تقوم بتسجيل الدخول مؤخرًا. \ n ثم بعد ذلك يمكنك حذف حسابك</string>
+    <string name="index">فهرس
+</string>
+    <string name="levelfinish">لقد أنهيت المستوى رقم:
+</string>
+    <string name="with">مع</string>
+    <string name="scorein">يسجل في
+</string>
+    <string name="finishquiz">لقد أنهيت الاختبار مع
+</string>
+    <string name="quepreparing">تحضير السؤال
+...</string>
+    <string name="acceptprivacy">الرجاء قبول سياسة الخصوصية الخاصة بنا !!
+</string>
+    <string name="finish">لقد انتهيت
+</string>
+    <string name="minute">دقيقة التحدي الذاتي في
+</string>
+    <string name="minutein">دقيقة في
+</string>
+</resources>

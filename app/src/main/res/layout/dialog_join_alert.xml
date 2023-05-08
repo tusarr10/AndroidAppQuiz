@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_btn"
+    android:backgroundTint="@color/bg_color"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_10">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/user_join_alert"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/user_join_alert_msg" />
+
+
+        <TextView
+            android:id="@+id/tvExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="@dimen/progress_h_w"
+            android:paddingEnd="@dimen/progress_h_w"
+            android:background="@drawable/option_bg_border"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="@string/exit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/mid_text"
+            android:visibility="visible" />
+
+</LinearLayout>

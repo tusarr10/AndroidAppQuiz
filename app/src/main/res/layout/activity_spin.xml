@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout" />
+
+
+    <RelativeLayout
+        android:id="@+id/mainRelay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolBar"
+        android:background="@color/white"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:background="@drawable/spinbgcurve"
+        />
+
+    <TextView
+        android:id="@+id/txtDummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:layout_marginStart="@dimen/padding_30"
+        android:layout_marginEnd="@dimen/padding_30"
+        android:text="@string/play_random_category_with_spin"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt_size_16"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relaySpin"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_below="@+id/txtDummy"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        >
+
+    <com.wrteam.quiz.spin.LuckyWheelView
+        android:id="@+id/luckyWheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:lkwBackgroundColor="#901D6CBA"
+        app:lkwCenterImage="@drawable/circle_shadow"
+        android:layout_margin="2dp"
+        app:lkwCursor="@color/transparent"
+        app:lkwEdgeColor="@color/white"
+        app:lkwEdgeWidth="3"
+        app:lkwSecondaryTextSize="14sp"
+        app:lkwTopTextColor="#263238" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spin_border" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relaySpin"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/padding_10"
+        android:paddingBottom="@dimen/padding_10"
+        android:paddingStart="@dimen/padding_30"
+        android:paddingEnd="@dimen/padding_30"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gradient_cat_blue"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:text="@string/let_s_spin"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txtsize_22" />
+
+
+        <LinearLayout
+            android:id="@+id/banner_AdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>

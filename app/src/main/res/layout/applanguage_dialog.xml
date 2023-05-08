@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_20dp"
+    android:background="@drawable/language_curved"
+    android:backgroundTint="@color/bg_color"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/language_gradient"
+        android:gravity="center"
+        android:padding="@dimen/margin_10dp"
+        android:text="@string/select_language"
+        android:textColor="@color/white"
+        android:textSize="@dimen/mid_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvenglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:padding="@dimen/padding_15"
+        android:text="English"
+        android:background="@drawable/blue_white_bg"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt_size_16"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvenglish"
+        android:padding="@dimen/padding_15"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt_size_16"
+        android:text="Hindi"
+        android:background="@drawable/orange_white_bg"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvArbic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHindi"
+        android:background="@drawable/green_white_bg"
+        android:padding="@dimen/padding_15"
+        android:text="Arabic"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt_size_16"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+</RelativeLayout>

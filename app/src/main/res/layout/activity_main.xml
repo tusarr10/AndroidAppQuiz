@@ -1,0 +1,884 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:background="@drawable/main_screen_curved_bg">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:titleTextAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:titleTextColor="@color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_back_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_20dp"
+                    android:background="@drawable/ic_new_drawer"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgStore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/padding_10"
+                    android:layout_toStartOf="@+id/imgLanguage"
+                    android:background="@drawable/main_btn"
+                    android:padding="@dimen/margin_10dp"
+                    android:src="@drawable/ic_baseline_store_24"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginEnd="@dimen/txt_size_20"
+                    android:background="@drawable/main_btn"
+                    android:padding="@dimen/margin_10dp"
+                    android:src="@drawable/ic_language1"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.wrteam.quiz.helper.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/toolBar"
+            android:layout_marginStart="@dimen/padding_15"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolBar"
+            android:layout_marginStart="@dimen/margin_10dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_toEndOf="@+id/imgProfile"
+            android:fontFamily="@font/open_sans_bold"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName"
+            android:layout_marginBottom="@dimen/padding_10"
+            android:layout_toEndOf="@+id/imgProfile"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/shadow_curved"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:paddingStart="@dimen/padding_10"
+                android:paddingTop="@dimen/margin_5dp"
+                android:paddingEnd="@dimen/padding_10"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_new_points"
+                app:drawableTint="@color/white" />
+
+
+            <TextView
+                android:id="@+id/tv_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_5dp"
+                android:layout_toEndOf="@+id/tv_score"
+                android:background="@drawable/shadow_curved"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:paddingStart="@dimen/margin_dp"
+                android:paddingTop="@dimen/margin_5dp"
+                android:paddingEnd="@dimen/margin_dp"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_new_coins"
+                app:drawableTint="@color/white" />
+
+
+            <TextView
+                android:id="@+id/tv_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/tv_coin"
+                android:background="@drawable/shadow_curved"
+                android:drawablePadding="@dimen/margin_10dp"
+                android:paddingStart="@dimen/margin_dp"
+                android:paddingTop="@dimen/margin_5dp"
+                android:paddingEnd="@dimen/margin_dp"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_12sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_new_leaderboard"
+                app:drawableTint="@color/white" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_top"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/spinCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:onClick="SpinQuiz"
+                app:cardCornerRadius="@dimen/margin_20dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/spin_banner"
+                        android:padding="@dimen/padding_15"
+                        tools:ignore="ContentDescription" />
+
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:id="@+id/linerMaths"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/spinCard"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_10"
+                android:weightSum="2"
+                >
+            <RelativeLayout
+                android:id="@+id/lytMaths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/maths_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_dp"
+                    android:background="@drawable/ic_mathquiz"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtMathsZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/padding_15"
+                    android:layout_toEndOf="@+id/maths_img"
+                    android:text="@string/maths_zone"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/txt_size_16"
+                    android:textStyle="bold" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/MathsCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/maths_img"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/padding_15"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:layout_marginEnd="@dimen/margin_5dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0.0px"
+                    android:elevation="8dp"
+                    android:onClick="MathsZone"
+                    app:cardCornerRadius="@dimen/margin_20dp"
+                    card_view:cardElevation="7dp"
+                    card_view:cardPreventCornerOverlap="false">
+
+
+                    <RelativeLayout
+                        android:id="@+id/MathsCardRelay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/gradient_cat_green">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="@dimen/margin_5dp"
+                            android:background="@drawable/ic_maths"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/txtMaths"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_10"
+                            android:layout_marginTop="@dimen/margin_20dp"
+                            android:layout_marginBottom="@dimen/margin_5dp"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center_vertical"
+                            android:maxLines="1"
+                            android:text="@string/maths_play"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+
+                        <TextView
+                            android:id="@+id/tvMaths"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtMaths"
+                            android:layout_marginStart="@dimen/padding_10"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="@dimen/margin_20dp"
+                            android:drawablePadding="@dimen/padding_10"
+
+                            android:paddingEnd="@dimen/margin_10dp"
+                            android:paddingBottom="5dp"
+                            android:text="@string/play_now"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_play" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/lytLearning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lytMaths"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/learning_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_dp"
+                        android:background="@drawable/ic_baseline_menu_book_24"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/txtLearningZone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding_15"
+                        android:layout_toEndOf="@+id/learning_img"
+                        android:text="@string/learning_zone"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/txt_size_16"
+                        android:textStyle="bold" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/LearningCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/learning_img"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="@dimen/margin_5dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_marginEnd="@dimen/padding_15"
+                        android:layout_marginBottom="@dimen/margin_10dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:divider="@android:color/transparent"
+                        android:dividerHeight="0.0px"
+                        android:elevation="8dp"
+                        android:onClick="LearningZone"
+                        app:cardCornerRadius="@dimen/margin_20dp"
+                        card_view:cardElevation="7dp"
+                        card_view:cardPreventCornerOverlap="false">
+
+
+                        <RelativeLayout
+                            android:id="@+id/LearningCardRelay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/gradient_cat_blue">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginEnd="@dimen/margin_5dp"
+                                android:background="@drawable/ic_learning"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/txtLearning"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_10dp"
+                                android:layout_marginTop="@dimen/margin_20dp"
+                                android:layout_marginBottom="@dimen/margin_5dp"
+                                android:fontFamily="@font/open_sans_bold"
+                                android:gravity="center_vertical"
+                                android:maxLines="1"
+                                android:text="@string/learning_play"
+                                android:textColor="@color/white"
+                                android:textSize="20sp" />
+
+
+                            <TextView
+                                android:id="@+id/tvLearning"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/txtLearning"
+                                android:layout_marginStart="@dimen/margin_10dp"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:layout_marginBottom="@dimen/margin_20dp"
+                                android:drawablePadding="@dimen/padding_10"
+                                android:paddingEnd="@dimen/margin_10dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/play_now"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                app:drawableStartCompat="@drawable/ic_play" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/lytCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linerMaths"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/img_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_dp"
+                    android:background="@drawable/ic_quiz_zone"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtQuiZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toStartOf="@+id/tv_view_all"
+                    android:layout_toEndOf="@+id/img_play"
+                    android:text="@string/quiz_zone"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_view_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="@dimen/margin_10dp"
+                    android:text="@string/view_all"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_play"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="@dimen/margin_10dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/img_battle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lytCategory"
+                android:layout_marginStart="@dimen/margin_dp"
+                android:background="@drawable/ic_play_quiz"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtPlayZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lytCategory"
+                android:layout_marginStart="@dimen/margin_10dp"
+                android:layout_toEndOf="@+id/img_battle"
+                android:text="@string/play_zone"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/txt_size_16"
+                android:textStyle="bold" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PlayMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_battle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/margin_10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="@dimen/margin_10dp" />
+
+            <ImageView
+                android:id="@+id/img_battle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PlayMode"
+                android:layout_marginStart="@dimen/margin_dp"
+                android:background="@drawable/ic_battle_quiz"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtBattleZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PlayMode"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_toEndOf="@+id/img_battle"
+                android:text="@string/battle_zone"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/txt_size_16"
+                android:textStyle="bold" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/GroupBattle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_battle1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:onClick="GroupBattle"
+                app:cardCornerRadius="@dimen/margin_20dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+
+                <RelativeLayout
+                    android:id="@+id/cardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gradient_cat_blue">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_g_battle"
+                        android:padding="@dimen/padding_10"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/item_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_20dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/group_battle"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/item_title"
+                        android:layout_marginTop="@dimen/padding_30"
+                        android:layout_marginBottom="@dimen/margin_20dp"
+                        android:drawablePadding="@dimen/padding_10"
+                        android:paddingStart="@dimen/margin_10dp"
+                        android:paddingEnd="@dimen/margin_10dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/play_now"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:drawableStartCompat="@drawable/ic_play" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/otoBattle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/GroupBattle"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:onClick="OneToOneBattle"
+                app:cardCornerRadius="@dimen/margin_20dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gradient_cat_pink">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_onevsone"
+                        android:padding="@dimen/padding_10"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/tvOneToOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_20dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/one_to_one_battle"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_oto_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvOneToOne"
+                        android:layout_marginStart="@dimen/margin_20dp"
+                        android:layout_marginTop="@dimen/padding_30"
+                        android:layout_marginBottom="@dimen/margin_20dp"
+                        android:drawablePadding="@dimen/padding_10"
+                        android:paddingStart="@dimen/margin_10dp"
+
+                        android:paddingEnd="@dimen/margin_10dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/play_now"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:drawableStartCompat="@drawable/ic_play"
+
+                        />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/randomBattle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/otoBattle"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/padding_15"
+                android:layout_marginEnd="@dimen/padding_15"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:elevation="8dp"
+                android:onClick="RandomBattle"
+                app:cardCornerRadius="@dimen/margin_20dp"
+                card_view:cardElevation="7dp"
+                card_view:cardPreventCornerOverlap="false">
+
+
+                <RelativeLayout
+                    android:id="@+id/random_card_relay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gradient_cat_sky">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_random"
+                        android:padding="@dimen/margin_dp"
+                        tools:ignore="ContentDescription"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_random"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/txt_size_20"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:fontFamily="@font/open_sans_bold"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/random_battle"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_random_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_random"
+                        android:layout_marginStart="@dimen/margin_20dp"
+                        android:layout_marginTop="@dimen/padding_30"
+                        android:layout_marginBottom="@dimen/margin_20dp"
+                        android:drawablePadding="@dimen/padding_10"
+                        android:paddingStart="@dimen/margin_10dp"
+                        android:paddingEnd="@dimen/margin_10dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/play_now"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:drawableStartCompat="@drawable/ic_play" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/lytContest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/randomBattle">
+
+
+                <ImageView
+                    android:id="@+id/contest_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_dp"
+                    android:background="@drawable/ic_contest_quiz"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtContestZone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/padding_15"
+                    android:layout_toEndOf="@+id/contest_img"
+                    android:text="@string/contest_zone"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/txt_size_16"
+                    android:textStyle="bold" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ContestCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contest_img"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/padding_15"
+                    android:layout_marginTop="@dimen/margin_10dp"
+                    android:layout_marginEnd="@dimen/padding_15"
+                    android:layout_marginBottom="@dimen/margin_10dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0.0px"
+                    android:elevation="8dp"
+                    android:onClick="ContestQuiz"
+                    app:cardCornerRadius="@dimen/margin_20dp"
+                    card_view:cardElevation="7dp"
+                    card_view:cardPreventCornerOverlap="false">
+
+
+                    <RelativeLayout
+                        android:id="@+id/ContestCardRelay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/gradient_cat_green">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/ic_contest"
+                            android:padding="@dimen/padding_15"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/txtContest"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/txt_size_20"
+                            android:layout_marginTop="@dimen/margin_20dp"
+
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center_vertical"
+                            android:maxLines="1"
+                            android:text="@string/contest_play"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+
+                        <TextView
+                            android:id="@+id/tvContest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtContest"
+                            android:layout_marginStart="@dimen/margin_20dp"
+                            android:layout_marginTop="@dimen/padding_30"
+                            android:layout_marginBottom="@dimen/margin_20dp"
+                            android:drawablePadding="@dimen/padding_10"
+                            android:paddingStart="@dimen/margin_10dp"
+                            android:paddingEnd="@dimen/margin_10dp"
+                            android:paddingBottom="5dp"
+                            android:text="@string/join_now"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:drawableStartCompat="@drawable/ic_play" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

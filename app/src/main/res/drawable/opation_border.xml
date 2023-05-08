@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <size
+                android:width="@dimen/option_btn_height"
+                android:height="@dimen/option_btn_height" />
+            <corners android:bottomRightRadius="@dimen/margin_10dp"
+                android:topLeftRadius="@dimen/margin_10dp"
+                />
+            <size
+                android:width="@dimen/option_btn_height"
+                android:height="@dimen/option_btn_height" />
+            <stroke
+                android:width="2px"
+                android:color="@color/colorPrimaryDark" />
+        </shape>
+    </item>
+
+</layer-list>
